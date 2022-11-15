@@ -153,3 +153,21 @@ Luego de transpilados nuestros archivos ahora podemos ejecutarlos con node por e
 ```
 node dist/01-hello.js
 ```
+
+Para usar ts-node: en cmd:
+
+```
+nps ts-node namefile.ts
+```
+
+### Instalamos tslint :
+
+```
+npm install eslint --save-dev
+```
+
+### creamos el eslint/config:
+
+```
+npm init @eslint/config
+```
